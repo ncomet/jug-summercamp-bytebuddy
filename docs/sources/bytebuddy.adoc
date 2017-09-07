@@ -1,0 +1,74 @@
+= `Byte Buddy` : la génération de bytecode facile !
+Nicolas Comet <nicolas.comet@gmail.com>
+:icons: font
+
+image::jug-summer.png[float=right, bandeau, 100]
+
+== Qui je suis
+
+image::avatar.jpg[float="right"]
+
+icon:twitter[] @NicolasComet +
+icon:github[] https://github.com/ncomet
+
+* Développeur depuis 7 ans
+
+image::lectra.gif[float="right"]
+
+* Ingénieur d'Études R&D chez Lectra,
+leader mondial des solutions dédiées à l'industrie textile (machines et logiciels)
+
+image::bordeauxjug.jpg[float="right"]
+
+* Speaker & Membre du Bordeaux JUG
+
+== Lectra
+
+image::lectra-recrute.png[]
+
+== La petite histoire
+
+_"Making Java more dynamic"_ @Devoxx France 2015
+
+icon:external-link[] https://youtu.be/vjv4idwQL7k
+
+image::rwinterhalter.png[]
+
+image::devoxx.png[]
+
+== Bytecode ?
+
+image::diag.png[diagramme, 875, 493]
+
+== Frameworks
+
+image::frameworks.png[frameworks, 875, 517]
+
+== Byte Buddy
+
+Open Source (license Apache), utilisé par `Mockito`, `Hibernate`, `Google Bazle`, https://github.com/raphw/byte-buddy/wiki/Projects-using-Byte-Buddy[et d'autres]
+
+image::stars-github.png[Stars]
+
+icon:external-link[] https://github.com/raphw/byte-buddy
+
+icon:external-link[] http://bytebuddy.net
+
+[%step]
+* Facilité d'utilisation (comparé ASM, BCEL)
+* R/W bytecode de manière lisible et instrumentée (builder pattern)
+* Concevoir des petits frameworks/librairies
+* Hors du framework, tout reste type-safe. (user type enhancement)
+* Séparation des préoccupations (logging, caches, sécurité...)
+
+== Démo
+
+image::demo.png[]
+
+Slides :
+
+icon:external-link[] https://ncomet.github.io/jugsummercamp2017-bytebuddy/bytebuddy.html
+
+Sources :
+
+icon:github[] https://github.com/ncomet/jugsummercamp2017-bytebuddy
